@@ -1,46 +1,41 @@
-  <h1>📊 Dashboard de Vendas</h1>
-  <p>Este repositório contém uma análise visual de dados de vendas com gráficos divididos por clientes, vendedores, produtos e volume de vendas. Abaixo estão os gráficos com breves insights.</p>
+<h1>📊 Dashboard de Vendas - BikeWorld</h1>
+
+  <p>A <strong>BikeWorld</strong> é uma empresa brasileira que nasceu da paixão por pedalar. Fundada por dois amigos ciclistas, ela rapidamente se tornou referência na venda de bicicletas e acessórios esportivos, atendendo clientes em todo o país.</p>
+
+  <p>Com o crescimento acelerado, surgiram dúvidas estratégicas fundamentais:</p>
+  <ul>
+    <li>Quem são nossos clientes mais valiosos?</li>
+    <li>Qual vendedor está realmente performando?</li>
+    <li>Quais produtos devem ser priorizados em campanhas?</li>
+    <li>Existe sazonalidade no nosso faturamento?</li>
+  </ul>
+
+  <p>Para responder a essas perguntas, foi desenvolvido um <strong>dashboard interativo</strong> usando Power BI, consolidando dados de vendas, clientes, produtos e performance comercial.</p>
 
   <section>
-    <h2>👥 Clientes</h2>
+    <h2>👥 Quem são nossos clientes?</h2>
     <img src="./clientes.png" alt="Dashboard Clientes">
-    <ul>
-      <li><strong>Status Silver</strong> concentra a maior parte do valor total de compras.</li>
-      <li>Distribuição equilibrada entre os sexos, levemente maior para o sexo masculino.</li>
-      <li><strong>Diana Baptista</strong> é a cliente com maior valor total.</li>
-    </ul>
+    <p>O dashboard mostra que clientes com status <strong>Silver</strong> geram a maior parte da receita da BikeWorld. Isso sugere que o foco em fidelização vale a pena. A distribuição de gênero é quase igual, com leve predominância masculina. <strong>Diana Baptista</strong> aparece como a principal compradora, sendo um ótimo exemplo de cliente premium. Geograficamente, os clientes estão concentrados nas regiões Sul e Sudeste, indicando um potencial para expansão em outras regiões.</p>
   </section>
 
   <section>
-    <h2>🧑‍💼 Vendedores</h2>
+    <h2>🧑‍💼 Quais vendedores estão se destacando?</h2>
     <img src="./vendedores.png" alt="Dashboard Vendedores">
-    <ul>
-      <li><strong>Capitolino Bahia</strong> lidera em vendas totais.</li>
-      <li><strong>Tobias Furtado</strong> aparece como o vendedor com menor performance.</li>
-      <li>Variação mensal entre os top 5 vendedores mostra sazonalidade nas vendas.</li>
-    </ul>
+    <p>O vendedor <strong>Capitolino Bahia</strong> é o destaque absoluto em performance, liderando em volume de vendas mês após mês. Já <strong>Tobias Furtado</strong> tem desempenho inferior, o que pode indicar necessidade de treinamento ou realocação de tarefas. Observando os meses, percebemos uma clara sazonalidade, com picos de vendas concentrados em junho e novembro. Isso indica oportunidades para campanhas promocionais bem posicionadas.</p>
   </section>
 
   <section>
-    <h2>🚲 Produtos</h2>
+    <h2>🚲 Quais produtos mais vendem?</h2>
     <img src="./produtos.png" alt="Dashboard Produtos">
-    <ul>
-      <li>A <strong>Bicicleta Altools Stroll Aro 26</strong> lidera em vendas totais.</li>
-      <li>Produtos com maior desconto também são os mais vendidos.</li>
-      <li>A <strong>Bicicleta Gometws Endorphine 6.1</strong> teve o menor desconto e baixas vendas.</li>
-    </ul>
+    <p>A <strong>Bicicleta Altools Stroll Aro 26</strong> lidera as vendas, combinando preço competitivo e promoções frequentes. Produtos com maior desconto tendem a ter melhor desempenho, evidenciando a sensibilidade do cliente ao preço. Em contraste, modelos como a <strong>Gometws Endorphine 6.1</strong>, com preço elevado e poucos descontos, tiveram menor saída. Essas informações orientam tanto o planejamento do mix de produtos quanto a precificação.</p>
   </section>
 
   <section>
-    <h2>📈 Vendas ao Longo do Tempo</h2>
+    <h2>📈 Quando mais vendemos?</h2>
     <img src="./vendas.png" alt="Dashboard Vendas">
-    <ul>
-      <li>Pico de vendas observado no meio do ano (junho-julho).</li>
-      <li>Produtos de ticket maior mantêm vendas constantes mesmo com menor volume de unidades.</li>
-      <li>Gráficos mostram consistência de alguns produtos e sazonalidade de outros.</li>
-    </ul>
+    <p>A curva de vendas revela picos nos meses de <strong>junho e julho</strong>, coincidindo com campanhas sazonais e maior procura por atividades ao ar livre no inverno. Produtos com ticket médio mais alto se mantêm estáveis ao longo do ano, enquanto itens mais acessíveis são mais sensíveis à sazonalidade. Isso permite à BikeWorld planejar estoques e campanhas de maneira estratégica.</p>
   </section>
 
-  <p>📝 Este dashboard pode ser usado para análises comerciais, tomada de decisão estratégica e acompanhamento de performance de produtos e vendedores.</p>
+  <p>📝 Com este dashboard, a BikeWorld passou a tomar decisões mais assertivas, baseadas em dados. Ele se tornou uma ferramenta essencial para o planejamento comercial, marketing e gestão de estoque. Um pedal mais seguro rumo ao crescimento 🚴‍♂️.</p>
 </body>
 </html>
