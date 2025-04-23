@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard de Vendas - README</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 2em; line-height: 1.6; }
-    h1, h2 { color: #2c3e50; }
-    img { max-width: 100%; margin: 1em 0; border: 1px solid #ccc; }
-    section { margin-bottom: 2em; }
-    code { background: #f4f4f4; padding: 0.2em 0.4em; border-radius: 4px; }
-  </style>
-</head>
-<body>
   <h1>📊 Dashboard de Vendas</h1>
   <p>Este repositório contém uma análise visual de dados de vendas com gráficos divididos por clientes, vendedores, produtos e volume de vendas. Abaixo estão os gráficos com breves insights.</p>
 
