@@ -13,6 +13,23 @@
 <p>Para responder a essas perguntas, foi desenvolvido um <strong>dashboard interativo</strong> usando Power BI, consolidando dados de vendas, clientes, produtos e performance comercial. Todos os dados foram organizados e extraídos a partir de um banco de dados <strong>PostgreSQL</strong>, garantindo robustez e confiabilidade nas análises.</p>
 
 <section>
+  <h2>🧩 Como os dados estão organizados?</h2>
+  <img src="./relacionamento.png" alt="Modelo de Relacionamento entre Tabelas">
+  <p>O modelo de dados utilizado para construir o dashboard foi estruturado no formato de <strong>Data Warehouse</strong>, utilizando o banco de dados <strong>PostgreSQL</strong>. Ele segue a abordagem de esquema estrela, onde a tabela de fatos <code>fato_vendas</code> centraliza as informações de vendas e se conecta a diversas tabelas dimensionais.</p>
+  <p>As principais tabelas são:</p>
+  <ul>
+    <li><strong>fato_vendas</strong>: contém as métricas de vendas, como quantidade, desconto, valor total e chaves para cliente, produto, vendedor e tempo.</li>
+    <li><strong>dimensao_cliente</strong>: armazena dados dos clientes, como nome, sexo, estado e status.</li>
+    <li><strong>dimensao_produto</strong>: contém informações sobre os produtos vendidos.</li>
+    <li><strong>dimensao_vendedor</strong>: traz os dados dos vendedores, essenciais para avaliar a performance individual.</li>
+    <li><strong>dimensao_tempo</strong>: facilita a análise temporal, organizando os dados por data, mês, dia da semana e ano.</li>
+    <li><strong>cubo_vendas</strong>: estrutura agregada usada para análises específicas por produto, estado e cliente.</li>
+    <li><strong>kpi</strong>: armazena metas e valores realizados por mês, permitindo avaliação de performance geral da empresa.</li>
+  </ul>
+  <p>Esse modelo relacional garante integridade e flexibilidade nas análises, permitindo que o Power BI realize cruzamentos e filtros dinâmicos entre diferentes perspectivas do negócio.</p>
+</section>
+  
+<section>
   <h2>👥 Quem são nossos clientes?</h2>
   <img src="./clientes.png" alt="Dashboard Clientes">
   <p>O dashboard mostra que clientes com status <strong>Silver</strong> geram a maior parte da receita da BikeWorld. Isso sugere que o foco em fidelização vale a pena. A distribuição de gênero é quase igual, com leve predominância masculina. <strong>Diana Baptista</strong> aparece como a principal compradora, sendo um ótimo exemplo de cliente premium. Geograficamente, os clientes estão concentrados nas regiões Sul e Sudeste, indicando um potencial para expansão em outras regiões.</p>
