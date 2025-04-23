@@ -1,4 +1,4 @@
-# 🎲 Projeto Final – Lógica de Programação 1 com Python  
+# 🎲 Algoritmo KNN
 **Ada Tech & iFood**
 
 ---
