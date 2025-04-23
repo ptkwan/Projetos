@@ -3,7 +3,7 @@
 
   <section>
     <h2>👥 Clientes</h2>
-    <img src="./8274a50a-7fff-415a-b4d6-b3a17508f585.png" alt="Dashboard Clientes">
+    <img src="./clientes.png" alt="Dashboard Clientes">
     <ul>
       <li><strong>Status Silver</strong> concentra a maior parte do valor total de compras.</li>
       <li>Distribuição equilibrada entre os sexos, levemente maior para o sexo masculino.</li>
@@ -13,7 +13,7 @@
 
   <section>
     <h2>🧑‍💼 Vendedores</h2>
-    <img src="./45e00176-3061-436e-b83b-a10bbe588885.png" alt="Dashboard Vendedores">
+    <img src="./vendedores.png" alt="Dashboard Vendedores">
     <ul>
       <li><strong>Capitolino Bahia</strong> lidera em vendas totais.</li>
       <li><strong>Tobias Furtado</strong> aparece como o vendedor com menor performance.</li>
@@ -23,7 +23,7 @@
 
   <section>
     <h2>🚲 Produtos</h2>
-    <img src="./d596964c-e74e-4a81-a959-8a343e288012.png" alt="Dashboard Produtos">
+    <img src="./produtos.png" alt="Dashboard Produtos">
     <ul>
       <li>A <strong>Bicicleta Altools Stroll Aro 26</strong> lidera em vendas totais.</li>
       <li>Produtos com maior desconto também são os mais vendidos.</li>
@@ -33,7 +33,7 @@
 
   <section>
     <h2>📈 Vendas ao Longo do Tempo</h2>
-    <img src="./f40862a4-cf0d-4854-998a-ffcba8f35a3d.png" alt="Dashboard Vendas">
+    <img src="./vendas.png" alt="Dashboard Vendas">
     <ul>
       <li>Pico de vendas observado no meio do ano (junho-julho).</li>
       <li>Produtos de ticket maior mantêm vendas constantes mesmo com menor volume de unidades.</li>
